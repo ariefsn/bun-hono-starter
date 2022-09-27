@@ -1,4 +1,4 @@
-# learn
+# bun-hono-starter
 
 To install dependencies:
 
