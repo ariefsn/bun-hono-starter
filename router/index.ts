@@ -1,8 +1,8 @@
 import { Hono } from "hono";
-import { hello } from "./hello";
-import { methods } from "./methods";
+import { health } from "./root";
+import { example } from "./example";
 
 export const router = new Hono()
 
-router.get('/', hello);
-router.route('/methods', methods)
+router.get('/', health);
+router.route('/example', example)
